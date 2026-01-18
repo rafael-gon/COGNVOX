@@ -1,0 +1,119 @@
+.loginSection {
+  background: #E8E9F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.glassCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 15px #000000a0;
+  border-radius: 12px;
+  overflow: hidden
+}
+
+
+.contentWrapper {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+
+.contentWrapper .logo {
+  height: 60px;
+}
+
+.contentWrapper .centeredContent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contentWrapper .centeredContent form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contentWrapper .centeredContent input {
+  border: none;
+  background: #DCE1F0;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.contentWrapper .centeredContent input[type="submit"] {
+  cursor: pointer;
+  width: fit-content;
+  background: #203A8A;
+  color: #fff;
+}
+
+.contentWrapper .centeredContent input[type="submit"]:hover {
+  filter: brightness(90%);
+}
+
+.contentWrapper .centeredContent a {
+  color: #A3A3A3;
+}
+
+.contentWrapper .centeredContent a:hover {
+  color: #203A8A;
+}
+
+.contentWrapper .centeredContent input:focus {
+  outline: none;
+  background: rgb(200, 225, 240);
+}
+
+.contentWrapper .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contentRight {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  background: linear-gradient(#E6E8F1, #C5C8D9);
+
+}
+
+.contentRight .icons {
+  display: flex;
+  background: #A6ADC8;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.contentRight .estud {
+  height: 120px;
+  width: 120px;
+  margin: 92px 0;
+}
+
+.contentRight .icons img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.contentWrapper .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.contentWrapper .header p:nth-child(2) {
+  color: red;
+  font-size: 12px;
+}

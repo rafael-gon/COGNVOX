@@ -1,0 +1,74 @@
+.atorFormSection {
+  background: #203A8A;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.atorFormSection h2 {
+  color: #203A8A;
+  font-weight: bold;
+}
+
+.atorForm {
+  background: #E8E9F3;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px #000000a0;
+  overflow: hidden;
+  padding: 12px 24px;
+  border-radius: 12px;
+  height: 80%;
+  width: 80%;
+  gap: 12px;
+}
+
+.atorForm .selections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.atorForm .buttons {
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 24px;
+}
+
+.atorForm form input,
+.atorForm select {
+  border: none;
+  background: #DCE1F0;
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.atorForm button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: fit-content;
+  background: #203A8A;
+  color: #fff;
+}
+
+.atorForm button:hover {
+  filter: brightness(90%);
+}
+
+.atorForm form a {
+  color: #A3A3A3;
+}
+
+.atorForm form a:hover {
+  color: #203A8A;
+}
+
+.atorForm form input:focus,
+.atorForm select {
+  outline: none;
+  background: rgb(200, 225, 240);
+}
