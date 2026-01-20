@@ -88,7 +88,7 @@ CREATE TABLE ator (
   modalidade_ensino VARCHAR(100),
   idioma VARCHAR(50),
   instituicao VARCHAR(255),
-  endereco VARCHAR(255),
+  enderecselect *o VARCHAR(255),
   cidade VARCHAR(100),
   estado VARCHAR(50),
   pais VARCHAR(50),
@@ -141,7 +141,7 @@ INSERT INTO ator (
   'PE',
   'Brasil',
   'maria.silva',
-  '123456',
+  'scrypt:32768:8:1$BcaQIWwX3rJucXhc$a6e48696a04a2fa57067534b999d2b6b4973e69742b2a5c58f3f5ac4bb84f026e6fd1a2918ae1d718e792fa48be5873023884a18fae2f6e7c028696123849bc5',
   'admin',
   NULL,
   'ativo'
