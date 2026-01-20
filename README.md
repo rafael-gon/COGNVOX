@@ -88,7 +88,7 @@ CREATE TABLE ator (
   modalidade_ensino VARCHAR(100),
   idioma VARCHAR(50),
   instituicao VARCHAR(255),
-  enderecselect *o VARCHAR(255),
+  endereco VARCHAR(255),
   cidade VARCHAR(100),
   estado VARCHAR(50),
   pais VARCHAR(50),
